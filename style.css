@@ -1,0 +1,6 @@
+.container {
+    display: flex;
+}
+.container div {
+    border: dashed 1px green;
+}
