@@ -1,3 +1,8 @@
+html.body {
+  box-sizing: border-box;
+}
+
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6,6 +11,7 @@
   flex-wrap: wrap;
   min-height: 100vh;
 }
+
 
 /* .container div { */
   /* border: solid 1px green; */
@@ -17,16 +23,24 @@
   display: flex;
   width: 100%;
   margin: 0;
-  line-height: 6vh;
-  background: tomato;
+  line-height: 5vh;
+  background: #ff6447;
   color: white;
   /* padding: 5px; */
-  border-top: solid 20px purple;
-  margin: auto;
-  
-  
-      
+  border-top: solid 20px rgb(128, 0, 128);
+  border-bottom: solid 20px purple;
+  margin: auto;     
 }
+
+a:hover {
+          /* border-bottom: solid 5px purple; */
+          /* background:rgba(128, 0, 128, .5);   */
+          background: linear-gradient(217deg, rgba(255,0,129,.8), rgba(180, 95, 129, 0) 40.91%),
+            linear-gradient(127deg, rgba(0,150,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,2,.8), rgba(0,0,255,0) 70.71%);
+          line-height: 60px;
+}
+
 
  a {
   text-decoration: none;
@@ -34,7 +48,7 @@
   font-size: 30px;
 }
 
-.P {
+#P {
   width: 50%;
   margin-left: 10px;
 }
@@ -53,9 +67,21 @@
 
 .s1 {
   width: 100%;
-  height: 200px;
+  height: 500px;
 border-top: solid 5px red;
+background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(180, 95, 129, 0) 40.91%),
+            linear-gradient(127deg, rgba(0,150,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,2,.8), rgba(0,0,255,0) 70.71%);
 
+}
+.s1 p{
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  /* background: blue; */
+  margin:10%;
+  
 }
 
 
